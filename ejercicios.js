@@ -1,4 +1,7 @@
-// Consignas
+// Consignas 
+//Trabajo en grupo hasta las 20.35
+// 20.35-20.55 recreo
+
 // Ejercicio 1: Uso de for...of para sumar elementos de un array
 // Crea un archivo suma.js que exporte una función llamada sumarElementos. Esta función debe recibir un array de números y retornar la suma de sus elementos utilizando el bucle for...of. Importa esta función en main.js y llama a la función con un array de números, mostrando el resultado en la consola.
 
