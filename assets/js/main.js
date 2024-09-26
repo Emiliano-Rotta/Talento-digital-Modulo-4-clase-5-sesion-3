@@ -56,3 +56,45 @@
 //     resultado = resultado * element
 // }
 // console.log(resultado)
+
+
+//------------------------------------------
+//Ejercicios
+
+//1
+import { sumarElementos } from "./suma.js";
+
+const numeros = [10,20,30,100]
+console.log(sumarElementos(numeros))
+
+//2
+import { stringMasLargo } from "./string.js";
+
+const palabras = ['JavaScript', 'HTML', 'CSS'];
+console.log(stringMasLargo(palabras)) 
+
+//3
+import { mostrarNombres } from "./personas.js";
+
+const personas = [
+    { nombre: 'Ana' },
+    { nombre: 'Luis' },
+    { nombre: 'Carlos' }
+];
+
+mostrarNombres(personas)
+
+//4
+import { mostrarPropiedades } from "./propiedades.js";
+
+const auto = {
+    marca: "Fiat",
+    modelo: "uno",
+    año: 2009
+}
+
+mostrarPropiedades(auto)
+//5
+import { duplicarArray } from "./duplicar.js";
+const numerosParaDuplicar = [1,2,500]
+console.log(duplicarArray(numerosParaDuplicar))
